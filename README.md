@@ -16,7 +16,7 @@ subnet_ids = [
         "subnet-", 
 		"subnet-", 
 		"subnet-"
-]
+
 
 allowed_hosts = [
     "50.194.68.230.1/32",
@@ -37,3 +37,9 @@ output "allowed_hosts" {
 output "wordpress_db_NAME" {
 	value = module.wordpress_db.DB_NAME
 }
+
+...
+
+
+
+
